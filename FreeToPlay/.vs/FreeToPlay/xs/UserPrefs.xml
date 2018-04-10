@@ -1,12 +1,22 @@
-﻿<Properties StartupConfiguration="{E8D72466-EB85-4370-B1BB-C47950A2E4FF}|Default">
-  <MonoDevelop.Ide.ItemProperties.FreeToPlay.Droid FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.FreeToPlay.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.34C5047C-D197-495F-B943-5D38C6FDFE1D" FirstBuild="True">
+﻿<Properties StartupConfiguration="{5DEFF691-0EF0-4CE6-B060-D5F0DB0B494B}|Default">
+  <MonoDevelop.Ide.ItemProperties.FreeToPlay.Droid PreferredExecutionTarget="9bcc5490-8a2b-470c-a893-013b1e03688d" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreeToPlay/mViews/ListViewPage.xaml">
+    <Files>
+      <File FileName="FreeToPlay/Views/NewItemPage.xaml" Line="15" Column="1" />
+      <File FileName="FreeToPlay/Views/NewItemPage.xaml.cs" Line="26" Column="48" />
+      <File FileName="FreeToPlay/mViews/ListViewPage.xaml" Line="21" Column="15" />
+      <File FileName="FreeToPlay/mViews/ListViewPage.xaml.cs" Line="8" Column="38" />
+      <File FileName="FreeToPlay/App.xaml.cs" Line="28" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FreeToPlay.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.34C5047C-D197-495F-B943-5D38C6FDFE1D">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.FreeToPlay.iOS>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/hasancelebi/Documents/GitHub/Berkay-Limaks/FreeToPlay/FreeToPlay/mViews/ListViewPage.xaml" relfile="FreeToPlay/mViews/ListViewPage.xaml" line="5" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.FreeToPlay FirstBuild="True" />
