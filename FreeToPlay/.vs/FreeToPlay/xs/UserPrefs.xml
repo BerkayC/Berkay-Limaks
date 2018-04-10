@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{E8D72466-EB85-4370-B1BB-C47950A2E4FF}|Default">
+  <MonoDevelop.Ide.ItemProperties.FreeToPlay.Droid FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.FreeToPlay.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.34C5047C-D197-495F-B943-5D38C6FDFE1D" FirstBuild="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.FreeToPlay.iOS>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FreeToPlay FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>
