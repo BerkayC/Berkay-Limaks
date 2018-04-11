@@ -1,21 +1,19 @@
 ﻿<Properties StartupConfiguration="{5DEFF691-0EF0-4CE6-B060-D5F0DB0B494B}|Default">
-  <MonoDevelop.Ide.ItemProperties.FreeToPlay.Droid PreferredExecutionTarget="9bcc5490-8a2b-470c-a893-013b1e03688d" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FreeToPlay/mViews/ListViewPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.FreeToPlay.Droid PreferredExecutionTarget="Android.F7AZFG052462" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreeToPlay/mViews/ListViewPage.xaml.cs">
     <Files>
-      <File FileName="FreeToPlay/Views/NewItemPage.xaml" Line="15" Column="1" />
-      <File FileName="FreeToPlay/Views/NewItemPage.xaml.cs" Line="26" Column="48" />
-      <File FileName="FreeToPlay/mViews/ListViewPage.xaml" Line="21" Column="15" />
-      <File FileName="FreeToPlay/mViews/ListViewPage.xaml.cs" Line="8" Column="38" />
-      <File FileName="FreeToPlay/App.xaml.cs" Line="28" Column="1" />
+      <File FileName="FreeToPlay/App.xaml.cs" Line="21" Column="54" />
+      <File FileName="FreeToPlay/mViews/ListViewPage.xaml.cs" Line="7" Column="2" />
+      <File FileName="FreeToPlay/mViews/ListViewPage.xaml" Line="24" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.FreeToPlay.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.34C5047C-D197-495F-B943-5D38C6FDFE1D">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.FreeToPlay.iOS>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/hasancelebi/Documents/GitHub/Berkay-Limaks/FreeToPlay/FreeToPlay/mViews/ListViewPage.xaml" relfile="FreeToPlay/mViews/ListViewPage.xaml" line="5" column="1" />
+      <Breakpoint file="/Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/FreeToPlay/mViews/ListViewPage.xaml" relfile="FreeToPlay/mViews/ListViewPage.xaml" line="5" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

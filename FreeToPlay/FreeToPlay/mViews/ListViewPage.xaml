@@ -11,7 +11,10 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
+                            <StackLayout Orientation="Horizontal">
                             <Label Text="{Binding Name}"></Label>
+                            <Button Text="Sil" Clicked="Handle_Clicked" CommandParameter="{Binding Name}" TextColor="White" BackgroundColor="Black" HorizontalOptions="EndAndExpand" ></Button>   
+                            </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
