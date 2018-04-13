@@ -8,8 +8,11 @@ namespace Akuzman.Views
     {
         public aMasterPage()
         {
-            Master = new aMenu();
+            
             Detail = new HomePage();
+            aMenu menu = new aMenu();
+            menu.maMasterPage = this;
+            Master = menu;
         }
     }
 }

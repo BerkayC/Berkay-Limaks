@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Akuzman.Views;
 using Xamarin.Forms;
 
 namespace Akuzman.Pages
@@ -8,13 +8,16 @@ namespace Akuzman.Pages
     public partial class aMenu : ContentPage
     {
         List<aMenuItem> menuItems = new List<aMenuItem>();
+        public aMasterPage maMasterPage;
+
 		public class aMenuItem
 		{
 			public int Id{get;set;}
 			public string Text{get;set;}
 		}
-        public aMenu()
+        internal aMenu()
         {
+           
             InitializeComponent();
             Title = "Akuzman";
             menuItems = new List<aMenuItem>();
@@ -23,7 +26,20 @@ namespace Akuzman.Pages
             lstView.ItemsSource = menuItems;
 
         }
+        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem == null) 
+				return ;
+                
+            
+            aMenuItem sItem = (aMenuItem)e.SelectedItem;
+            ListView list = (ListView)sender;
 
+
+            list.SelectedItem = null;
+            maMasterPage.IsPresented = false;
+
+        }
     
         public void setMenuItems(string[] menuItemNames)
         {

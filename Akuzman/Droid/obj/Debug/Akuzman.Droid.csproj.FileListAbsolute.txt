@@ -50,6 +50,7 @@
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/res/drawable/akuzlogo.png
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/R.cs.flag
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/uploadflags.txt
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Mono.Android.pdb

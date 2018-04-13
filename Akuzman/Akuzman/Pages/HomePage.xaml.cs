@@ -10,6 +10,7 @@ namespace Akuzman.Pages
         public HomePage()
         {
             InitializeComponent();
+
         }
     }
 }
