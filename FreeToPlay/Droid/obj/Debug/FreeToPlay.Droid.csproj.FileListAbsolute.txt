@@ -45,7 +45,6 @@
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/FreeToPlay.Droid.csprojResolveAssemblyReference.cache
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/FreeToPlay.Droid.csproj.CoreCompileInputs.cache
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/FreeToPlay.Droid.Views.AboutPage.xaml.g.cs
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/FreeToPlay.Droid.Views.ItemDetailPage.xaml.g.cs

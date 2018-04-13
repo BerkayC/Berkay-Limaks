@@ -22,7 +22,7 @@ namespace FreeToPlay.mViews
 
             if (myObjects !=null)
             {
-				myObjects.Add(new MyObject { Id = 1, Name="Kitap" });
+				myObjects.Add(new MyObject { Id = 1, Name = "Kitap" });
 				myObjects.Add(new MyObject { Id = 2, Name = "Fare" });
                 myObjects.Add(new MyObject { Id = 5, Name = "Fare" });
 				myObjects.Add(new MyObject { Id = 3, Name = "Telefon" });
@@ -36,35 +36,20 @@ namespace FreeToPlay.mViews
         {
             Button btn = (Button)sender;
             string idtobedeleted = (string)btn.CommandParameter;
-            List<MyObject> mDeletionList = new List<MyObject>();
+
 			List<MyObject> mEa = new List<MyObject>();
-		//	mDeletionList.Add((FreeToPlay.mViews.ListViewPage.MyObject)myObjects.Where(p => p.Name == idtobedeleted));
             var mitem = myObjects.Where(p => p.Name == idtobedeleted);
 
-            //        foreach (MyObject item in myObjects)
-            //            {
-            //            if (item.Name == idtobedeleted)
-            //                {
-            //                    mEa.Add(item);
-            //                }
-            //            }
-            //        lstView.ItemsSource = null;
-            //        lstView.ItemsSource = myObjects;
-            //        foreach (var item in mEa)
-            //        {
-
-            //myObjects.Remove(item);
-            //}
-            //myObjects.Remove((FreeToPlay.mViews.ListViewPage.MyObject)myObjects.Where(p => p.Name == idtobedeleted));
             foreach (MyObject item in mitem)
             {
                 mEa.Add(item);               
             }
+
             foreach (var item in mEa)
-               {
+            {
 
                 myObjects.Remove(item);
-               }
+            }
 
             lstView.ItemsSource = null;
             lstView.ItemsSource = myObjects;

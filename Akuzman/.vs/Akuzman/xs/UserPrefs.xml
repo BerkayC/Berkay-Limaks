@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{0FA00CCD-4947-48CA-8014-78358E3B9343}|Default">
+  <MonoDevelop.Ide.ItemProperties.Akuzman.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Akuzman/Pages/aMenu.xaml.cs">
+    <Files>
+      <File FileName="Akuzman/App.xaml" Line="4" Column="49" />
+      <File FileName="Akuzman/App.xaml.cs" Line="12" Column="39" />
+      <File FileName="Akuzman/Views/aMasterPage.cs" Line="13" Column="10" />
+      <File FileName="Akuzman/Pages/aMenu.xaml" Line="19" Column="24" />
+      <File FileName="Akuzman/Pages/aMenu.xaml.cs" Line="23" Column="1" />
+      <File FileName="Akuzman/Pages/HomePage.xaml" Line="6" Column="1" />
+      <File FileName="Akuzman/Pages/HomePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Akuzman/Pages/aDetailPage.xaml" Line="6" Column="1" />
+      <File FileName="Akuzman/Pages/aDetailPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="29" Column="1" />
+      <File FileName="Akuzman/obj/Debug/Akuzman.Pages.aMenu.xaml.g.cs" Line="23" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Akuzman.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.34C5047C-D197-495F-B943-5D38C6FDFE1D" FirstBuild="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Akuzman.iOS>
+</Properties>

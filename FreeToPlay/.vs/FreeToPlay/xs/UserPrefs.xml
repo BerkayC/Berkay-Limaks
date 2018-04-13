@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{5DEFF691-0EF0-4CE6-B060-D5F0DB0B494B}|Default">
-  <MonoDevelop.Ide.ItemProperties.FreeToPlay.Droid PreferredExecutionTarget="Android.F7AZFG052462" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FreeToPlay/mViews/ListViewPage.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.FreeToPlay.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreeToPlay/mViews/ListViewPage.xaml">
     <Files>
-      <File FileName="FreeToPlay/App.xaml.cs" Line="21" Column="54" />
-      <File FileName="FreeToPlay/mViews/ListViewPage.xaml.cs" Line="7" Column="2" />
+      <File FileName="FreeToPlay/App.xaml.cs" Line="27" Column="2" />
+      <File FileName="FreeToPlay/mViews/ListViewPage.xaml.cs" Line="55" Column="45" />
       <File FileName="FreeToPlay/mViews/ListViewPage.xaml" Line="24" Column="15" />
+      <File FileName="FreeToPlay/App.xaml" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.FreeToPlay.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.34C5047C-D197-495F-B943-5D38C6FDFE1D">
