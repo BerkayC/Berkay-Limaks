@@ -5,22 +5,22 @@
     </ContentPage.Padding>
     
     <ContentPage.Content>
-        <StackLayout BackgroundColor="White" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="Start">
+        <StackLayout BackgroundColor="White" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="StartAndExpand">
             
-            <ListView VerticalOptions="Center" x:Name="lstView1"  ItemSelected="Handle_ItemSelected">
+            <ListView VerticalOptions="StartAndExpand" x:Name="lstView1"  ItemSelected="Handle_ItemSelected">
               <ListView.ItemTemplate>
                 <DataTemplate>
                  
                     <ViewCell Tapped="Handle_Tapped">
-                            <Image Source="Topbar.png" x:Name="{Binding Name}" BackgroundColor="Red" VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                            <Image Source="Topbar.png" x:Name="{Binding Name}" BackgroundColor="White"/>
                     </ViewCell>       
                  
                 </DataTemplate>
               </ListView.ItemTemplate>
             </ListView>
-            <StackLayout BackgroundColor="Blue">
+<!--            <StackLayout BackgroundColor="Blue">
                 <Label Text="Havuzlar" TextColor="White"/>
-            </StackLayout>
+            </StackLayout>-->
        
         </StackLayout>
     </ContentPage.Content>
