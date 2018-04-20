@@ -9,9 +9,11 @@ namespace Akuzman.Views
         public aMasterPage()
         {
             
-            Detail = new HomePage();
+            HomePage hPage = new HomePage();
             aMenu menu = new aMenu();
+            hPage.maMasterPage = this;
             menu.maMasterPage = this;
+            Detail = hPage;
             Master = menu;
         }
     }

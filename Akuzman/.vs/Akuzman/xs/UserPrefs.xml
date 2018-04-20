@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{0FA00CCD-4947-48CA-8014-78358E3B9343}|Default">
-  <MonoDevelop.Ide.ItemProperties.Akuzman.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Akuzman/Views/aMasterPage.cs">
+  <MonoDevelop.Ide.ItemProperties.Akuzman.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Akuzman/Pages/HomePage.xaml">
     <Files>
-      <File FileName="Akuzman/Views/aMasterPage.cs" Line="11" Column="13" />
-      <File FileName="Akuzman/Pages/aMenu.xaml" Line="6" Column="27" />
-      <File FileName="Akuzman/Pages/aMenu.xaml.cs" Line="40" Column="46" />
-      <File FileName="Akuzman/Pages/aDetailPage.xaml" Line="6" Column="1" />
-      <File FileName="Akuzman/Pages/aDetailPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="29" Column="1" />
+      <File FileName="Akuzman/Views/aMasterPage.cs" Line="16" Column="28" />
+      <File FileName="Akuzman/Pages/aMenu.xaml" Line="26" Column="1" />
+      <File FileName="Akuzman/Pages/aMenu.xaml.cs" Line="26" Column="17" />
+      <File FileName="Droid/MainActivity.cs" Line="25" Column="1" />
+      <File FileName="Akuzman/Pages/HomePage.xaml.cs" Line="25" Column="10" />
+      <File FileName="Akuzman/Pages/HomePage.xaml" Line="13" Column="100" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

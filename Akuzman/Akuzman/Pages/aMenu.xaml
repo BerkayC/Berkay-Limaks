@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Akuzman.Pages.aMenu" BackgroundColor="White">
 
-   <!-- <ContentPage.Padding>
+  <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"></OnPlatform>
-    </ContentPage.Padding>-->
+    </ContentPage.Padding>
     
     <ContentPage.Content>
         <StackLayout BackgroundColor="White" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="CenterAndExpand">
             
-            <Image Source="AkuzLogo.png" VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+            <Image Source="AkuzLogo.png" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
             <ListView VerticalOptions="Center" x:Name="lstView"  ItemSelected="Handle_ItemSelected">
               <ListView.ItemTemplate>
                 <DataTemplate>

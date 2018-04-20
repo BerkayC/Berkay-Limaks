@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Akuzman.Pages.HomePage" BackgroundColor="Black">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"></OnPlatform>
+    </ContentPage.Padding>
+    
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-            <Label BackgroundColor="Black" Text="ASDFARGTDB" TextColor="Red" VerticalOptions="Fill" HorizontalOptions="Fill"></Label>
+        <StackLayout BackgroundColor="White" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="Start">
+            
+            <ListView VerticalOptions="Center" x:Name="lstView1"  ItemSelected="Handle_ItemSelected">
+              <ListView.ItemTemplate>
+                <DataTemplate>
+                 
+                    <ViewCell Tapped="Handle_Tapped">
+                            <Image Source="Topbar.png" x:Name="{Binding Name}" BackgroundColor="Red" VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                    </ViewCell>       
+                 
+                </DataTemplate>
+              </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout BackgroundColor="Blue">
+                <Label Text="Havuzlar" TextColor="White"/>
+            </StackLayout>
+       
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

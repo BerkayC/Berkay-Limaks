@@ -65,6 +65,7 @@
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/res/values/styles.xml
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/R.cs.flag
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/uploadflags.txt
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/FreeToPlay.Droid.csprojResolveAssemblyReference.cache
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/bin/Debug/Mono.Android.pdb
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/linksrc/FreeToPlay.Droid.pdb
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/FreeToPlay/Droid/obj/Debug/linksrc/Mono.Android.pdb
