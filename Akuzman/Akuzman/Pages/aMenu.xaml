@@ -7,16 +7,13 @@
     
     <ContentPage.Content>
         <StackLayout BackgroundColor="White" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="CenterAndExpand">
-            
             <Image Source="AkuzLogo.png" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
             <ListView VerticalOptions="Center" x:Name="lstView"  ItemSelected="Handle_ItemSelected">
               <ListView.ItemTemplate>
                 <DataTemplate>
-                 
                     <ViewCell>
                             <Label Text="{Binding Text}" TextColor="Gray" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"  ></Label>
-                    </ViewCell>       
-                 
+                    </ViewCell>
                 </DataTemplate>
               </ListView.ItemTemplate>
             </ListView>
