@@ -32,7 +32,11 @@ namespace Akuzman.Pages
 
         void Handle_Tapped(object sender, System.EventArgs e)
         {
-            maMasterPage.IsPresented = true;
+            if (maMasterPage.IsPresented != true)
+            {
+				maMasterPage.IsPresented = true;
+
+            }
         }
     }
 }

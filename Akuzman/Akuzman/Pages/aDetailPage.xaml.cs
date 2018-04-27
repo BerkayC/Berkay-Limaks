@@ -17,5 +17,10 @@ namespace Akuzman.Pages
         {
             throw new NotImplementedException();
         }
+
+        void Handle_Activated(object sender, System.EventArgs e)
+        {
+            maMasterPage.IsPresented = true;
+        }
     }
 }

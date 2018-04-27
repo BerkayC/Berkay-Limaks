@@ -1,6 +1,6 @@
 ﻿using Akuzman.Views;
 using Xamarin.Forms;
-
+using Akuzman.Logic;
 namespace Akuzman
 {
     public partial class App : Application
@@ -15,6 +15,8 @@ namespace Akuzman
         protected override void OnStart()
         {
             // Handle when your app starts
+            //DataRetriever dataretriever = new DataRetriever();
+
         }
 
         protected override void OnSleep()

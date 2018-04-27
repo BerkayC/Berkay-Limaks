@@ -41,6 +41,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\mBasePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PressList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -58,6 +70,16 @@
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\NaviPage.cs" />
+    <Compile Include="Pages\mBasePage.xaml.cs">
+      <DependentUpon>mBasePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\DataRetriever.cs" />
+    <Compile Include="Pages\MyPage.xaml.cs">
+      <DependentUpon>MyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PressList.xaml.cs">
+      <DependentUpon>PressList.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -69,6 +91,9 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.5.1.444934\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -76,6 +101,7 @@
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="Pages\" />
+    <Folder Include="Logic\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.1.444934\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.1.444934\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />

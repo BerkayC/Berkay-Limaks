@@ -32,3 +32,11 @@
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/packages/Xamarin.Forms.2.5.1.444934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Newtonsoft.Json.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Primitives.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.9.1.24/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll

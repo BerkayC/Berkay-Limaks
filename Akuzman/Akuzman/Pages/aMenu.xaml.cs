@@ -37,7 +37,8 @@ namespace Akuzman.Pages
 
 
             list.SelectedItem = null;
-            maMasterPage.IsPresented = false;
+            maMasterPage.Detail = new NavigationPage(GetPage(sItem)); 
+			maMasterPage.IsPresented = false;
 
         }
     
@@ -49,6 +50,47 @@ namespace Akuzman.Pages
                 menuItems.Add(new aMenuItem { Id = i, Text = item });
                 i++;
             }
+        }
+        public Page GetPage(aMenuItem mItem)
+        {
+            Page mPage ;
+            switch (mItem.Id) 
+            {
+				case 0:
+                    mPage = maMasterPage.hPage;
+                    break;
+                case 1:
+                    mPage = maMasterPage.mDetail;
+                    break;
+                case 2:
+                    
+                    mPage = new MyPage();
+                    break;
+                case 3:
+                    PressList pressPage = new PressList();
+                    pressPage.PopulatePressItemAsync();
+                    mPage = pressPage;
+                    break;
+                case 4:
+                    mPage = maMasterPage.hPage;
+                    break;
+                case 5:
+                    mPage = maMasterPage.mDetail;;
+                    break;
+                case 6:
+                    mPage = maMasterPage.hPage;
+                    break;
+                case 7:
+                    mPage = maMasterPage.mDetail;
+                    break;
+                default :
+                    mPage = maMasterPage.hPage;
+                    break;
+                
+            } 
+
+
+            return mPage;
         }
     }
 }

@@ -27,6 +27,7 @@
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Newtonsoft.Json.dll
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Akuzman.pdb
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/FormsViewGroup.pdb
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/FormsViewGroup.dll.mdb
@@ -38,6 +39,7 @@
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/bin/Debug/Newtonsoft.Json.xml
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/Akuzman.Droid.csprojResolveAssemblyReference.cache
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/Akuzman.Droid.csproj.CoreCompileInputs.cache
 /Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Droid/obj/Debug/Akuzman.Droid.dll
