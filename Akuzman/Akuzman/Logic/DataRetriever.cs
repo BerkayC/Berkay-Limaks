@@ -12,6 +12,7 @@ namespace Akuzman.Logic
         public async System.Threading.Tasks.Task ReadByUrl (string url)
         {
             var uri = new Uri(url);
+
             HttpClient myClient = new HttpClient();
 
             var response = await myClient.GetAsync(uri);

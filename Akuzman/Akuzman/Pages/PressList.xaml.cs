@@ -27,39 +27,74 @@ namespace Akuzman.Pages
         public List<PressItem> pressItems;
         public DataRetriever PressListRetriever;
         public string PressData;
-        public static string UrlForData = "http://limaxbilisim.com/demo/akuzman/api/mobile1/main.php?router=json_press_list";
-        ActivityIndicator ndicator;
+        public static string UrlOfData = "http://limaxbilisim.com/demo/akuzman/api/mobile1/main.php?router=json_press_list";
+
         public PressList()
         {
             InitializeComponent();
             pressItems = new List<PressItem>();
 
-            PressListRetriever = new DataRetriever(UrlForData);
+            PressListRetriever = new DataRetriever(UrlOfData);
 
-            ndicator = new ActivityIndicator();
-            ndicator.IsRunning = true;
-
+            //ndicator = new ActivityIndicator();
+            //ndicator.IsRunning = true;
             //Content = ndicator;
-
-
-            // pressItems = JsonConvert.DeserializeObject<List<PressItem>>(PressListRetriever.JsonToBeSend);
+           
+          
         }
+
         private async Task GetRawJson()
         {
-            await PressListRetriever.ReadByUrl(UrlForData);
+            await PressListRetriever.ReadByUrl(UrlOfData);
             PressData = PressListRetriever.RawJson;
         }
-
         private void InsertItems()
         {
             pressItems = JsonConvert.DeserializeObject<List<PressItem>>(PressData);
         }
         public async Task PopulatePressItemAsync()
         {
-            await GetRawJson();           
-            ndicator.IsRunning = false;
+            await GetRawJson();
+
             InsertItems();
-            lstView.ItemsSource = pressItems;
+
+             GenerateView();
+        }
+        private void GenerateView()
+        {
+            var innerStack = new StackLayout { Orientation = StackOrientation.Vertical, VerticalOptions = LayoutOptions.FillAndExpand, Children = { } };
+            var scroller = new ScrollView { Orientation = ScrollOrientation.Vertical, VerticalOptions = LayoutOptions.FillAndExpand, Content = innerStack };
+
+            var outerStack = new StackLayout { Orientation = StackOrientation.Vertical, VerticalOptions = LayoutOptions.FillAndExpand, Children = { scroller } };
+
+            //Clickable Label
+            var tgr = new TapGestureRecognizer();
+            tgr.Tapped += (s, e) => OnLabelClicked(s, e);
+            //Clickable Label
+
+            foreach (PressItem pItem in pressItems)
+            {
+                Label mlabel = new Label { Text = pItem.name, TextColor = Color.FromHex("#00558f"), HorizontalOptions = LayoutOptions.Center, HorizontalTextAlignment = TextAlignment.Center, FontSize = 15, };
+                Image mImage = new Image { Source = pItem.image };
+
+                //Clickable Label
+                mlabel.GestureRecognizers.Add(tgr);
+                //Clickable Label
+
+                if (mlabel.Text != null)
+                {
+                    innerStack.Children.Add(mlabel);
+                    innerStack.Children.Add(mImage);
+                }
+
+            }
+            Content = outerStack;
+        }
+
+        private void OnLabelClicked(object s, EventArgs e)
+        {
+            Label mLabel = (Label)s;
+           
         }
     }
 }

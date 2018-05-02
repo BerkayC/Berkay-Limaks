@@ -4,20 +4,5 @@
         <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"></OnPlatform>
     </ContentPage.Padding>
     <ContentPage.Content>
-        <ScrollView>
-         <StackLayout BackgroundColor="White" HorizontalOptions="FillAndExpand" Orientation="Vertical" VerticalOptions="FillAndExpand">
-            
-            <ListView VerticalOptions="FillAndExpand" HorizontalOptions="Fill" HeightRequest="550" WidthRequest="250" x:Name="lstView" >
-              <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                            <Label Text="{Binding content}" TextColor="Black" VerticalOptions="Start" HorizontalOptions="Start"  ></Label>
-                            <Image Source="{Binding image}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="250" HeightRequest="550"/>
-                    </ViewCell>
-                </DataTemplate>
-              </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
-       </ScrollView>     
     </ContentPage.Content>
 </ContentPage>

@@ -53,6 +53,14 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\GalleryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\GalleryCategoryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -80,6 +88,13 @@
     <Compile Include="Pages\PressList.xaml.cs">
       <DependentUpon>PressList.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\GalleryPage.xaml.cs">
+      <DependentUpon>GalleryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GalleryCategoryPage.xaml.cs">
+      <DependentUpon>GalleryCategoryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\GalleryFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

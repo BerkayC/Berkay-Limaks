@@ -1,22 +1,19 @@
-﻿<Properties StartupConfiguration="{0FA00CCD-4947-48CA-8014-78358E3B9343}|Default">
+﻿<Properties StartupConfiguration="{6FB3C1B9-B9E5-498E-A1E0-0A3F721034C8}|Default">
   <MonoDevelop.Ide.ItemProperties.Akuzman.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.d" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Akuzman/Pages/aMenu.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Akuzman/Pages/PressList.xaml.cs">
     <Files>
-      <File FileName="Akuzman/Pages/aDetailPage.xaml" Line="13" Column="15" />
-      <File FileName="Akuzman/Pages/aMenu.xaml.cs" Line="73" Column="27" />
-      <File FileName="Akuzman/Views/aMasterPage.cs" Line="21" Column="42" />
-      <File FileName="Akuzman/Logic/DataRetriever.cs" Line="21" Column="1" />
-      <File FileName="Akuzman/Pages/PressList.xaml.cs" Line="64" Column="6" />
-      <File FileName="Akuzman/Pages/aDetailPage.xaml.cs" Line="27" Column="1" />
-      <File FileName="Akuzman/Pages/PressList.xaml" Line="6" Column="1" />
-      <File FileName="Akuzman/Pages/aMenu.xaml" Line="7" Column="5" />
+      <File FileName="Akuzman/Views/aMasterPage.cs" Line="29" Column="14" />
+      <File FileName="Akuzman/Logic/DataRetriever.cs" Line="26" Column="17" />
+      <File FileName="Akuzman/Pages/PressList.xaml.cs" Line="48" Column="1" />
+      <File FileName="Akuzman/Pages/PressList.xaml" Line="9" Column="1" />
+      <File FileName="Akuzman/Pages/GalleryCategoryPage.xaml.cs" Line="20" Column="69" />
+      <File FileName="Akuzman/Pages/aMenu.xaml.cs" Line="82" Column="32" />
+      <File FileName="Akuzman/Logic/GalleryFactory.cs" Line="19" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/Pages/PressList.xaml.cs" relfile="Akuzman/Pages/PressList.xaml.cs" line="56" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

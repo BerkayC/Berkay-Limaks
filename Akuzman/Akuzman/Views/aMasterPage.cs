@@ -12,20 +12,21 @@ namespace Akuzman.Views
         public aDetailPage mDetail{ get; set; }
         public PressList mPressList { get; set; }
 
+
         public aMasterPage()
         {
             
             hPage = new HomePage();
             menu = new aMenu();
             mDetail = new aDetailPage();
-            mPressList = new PressList();
+           // mPressList = new PressList();
 
 			
 
             hPage.maMasterPage = this;
             menu.maMasterPage = this;
             mDetail.maMasterPage = this;
-            mPressList.maMasterPage = this;
+           // mPressList.maMasterPage = this;
 
 
 
@@ -35,7 +36,7 @@ namespace Akuzman.Views
             Master = menu;
 
 
-            //DataRetriever retriever = new DataRetriever();
+
 
         }
     }

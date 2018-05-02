@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Akuzman.Logic;
 using Akuzman.Views;
 using Xamarin.Forms;
 
@@ -72,10 +73,14 @@ namespace Akuzman.Pages
                     mPage = pressPage;
                     break;
                 case 4:
-                    mPage = maMasterPage.hPage;
+                    GalleryCategoryPage categoryPage = new GalleryCategoryPage();
+                    categoryPage.PopulateCatAsync();
+                    mPage = categoryPage;
                     break;
                 case 5:
-                    mPage = maMasterPage.mDetail;;
+                    GalleryFactory mGalleryFactory = new GalleryFactory();
+                    mGalleryFactory.PopulateGalleriesAsync();
+                    mPage = new GalleryCategoryPage();
                     break;
                 case 6:
                     mPage = maMasterPage.hPage;
