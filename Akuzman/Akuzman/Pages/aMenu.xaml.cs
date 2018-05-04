@@ -22,7 +22,7 @@ namespace Akuzman.Pages
             InitializeComponent();
             Title = "Akuzman";
             menuItems = new List<aMenuItem>();
-            string[] menuItemNames = new string[] { "AnaSayfa", "Tanıtım", "Basında Biz","Duyuru & Haberler","Galeri","İnsan Kaynakları","İletişim","Sıkça Sorulan Sorular" };
+            string[] menuItemNames = new string[] { "AnaSayfa", "Tanıtım", "Basında Biz","Galeri","Blog","İletişim" };
             setMenuItems(menuItemNames);
             lstView.ItemsSource = menuItems;
 
@@ -35,6 +35,7 @@ namespace Akuzman.Pages
             
             aMenuItem sItem = (aMenuItem)e.SelectedItem;
             ListView list = (ListView)sender;
+
 
 
             list.SelectedItem = null;
@@ -64,37 +65,28 @@ namespace Akuzman.Pages
                     mPage = maMasterPage.mDetail;
                     break;
                 case 2:
-                    
-                    mPage = new MyPage();
-                    break;
-                case 3:
-                    PressList pressPage = new PressList();
+                    PressListPage pressPage = new PressListPage();
                     pressPage.PopulatePressItemAsync();
+                    pressPage.mMenu = this;
                     mPage = pressPage;
                     break;
-                case 4:
+                case 3:
                     GalleryCategoryPage categoryPage = new GalleryCategoryPage();
                     categoryPage.PopulateCatAsync();
+                    categoryPage.mMenu = this;
                     mPage = categoryPage;
                     break;
-                case 5:
-                    GalleryFactory mGalleryFactory = new GalleryFactory();
-                    mGalleryFactory.PopulateGalleriesAsync();
-                    mPage = new GalleryCategoryPage();
-                    break;
-                case 6:
+                case 4:
                     mPage = maMasterPage.hPage;
                     break;
-                case 7:
-                    mPage = maMasterPage.mDetail;
-                    break;
+                case 5:
+                    mPage = maMasterPage.hPage;
+                    break;                
                 default :
                     mPage = maMasterPage.hPage;
                     break;
                 
             } 
-
-
             return mPage;
         }
     }

@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace Akuzman.Pages
 {
-    public class PressItem 
+    public class PressItem
     {
         public string name { get; set; }
         public string title { get; set; }
@@ -18,7 +18,7 @@ namespace Akuzman.Pages
 
         public PressItem()
         {
-            
+
         }
     }
     public partial class PressList : ContentPage
@@ -39,10 +39,18 @@ namespace Akuzman.Pages
             //ndicator = new ActivityIndicator();
             //ndicator.IsRunning = true;
             //Content = ndicator;
-           
-          
+
+
         }
 
+        public async Task PopulatePressItemAsync()
+        {
+            await GetRawJson();
+
+            InsertItems();
+
+            GenerateView();
+        }
         private async Task GetRawJson()
         {
             await PressListRetriever.ReadByUrl(UrlOfData);
@@ -52,14 +60,7 @@ namespace Akuzman.Pages
         {
             pressItems = JsonConvert.DeserializeObject<List<PressItem>>(PressData);
         }
-        public async Task PopulatePressItemAsync()
-        {
-            await GetRawJson();
 
-            InsertItems();
-
-             GenerateView();
-        }
         private void GenerateView()
         {
             var innerStack = new StackLayout { Orientation = StackOrientation.Vertical, VerticalOptions = LayoutOptions.FillAndExpand, Children = { } };
@@ -76,7 +77,6 @@ namespace Akuzman.Pages
             {
                 Label mlabel = new Label { Text = pItem.name, TextColor = Color.FromHex("#00558f"), HorizontalOptions = LayoutOptions.Center, HorizontalTextAlignment = TextAlignment.Center, FontSize = 15, };
                 Image mImage = new Image { Source = pItem.image };
-
                 //Clickable Label
                 mlabel.GestureRecognizers.Add(tgr);
                 //Clickable Label
@@ -91,15 +91,16 @@ namespace Akuzman.Pages
             Content = outerStack;
         }
 
-        private void OnLabelClicked(object s, EventArgs e)
+        private void OnLabelClicked(object sender, EventArgs eventArgs)
         {
-            Label mLabel = (Label)s;
-           
+            Label label = (Label)sender;
+            DisplayAlert("hey" + "  " + label.ClassId, "you did it", "get lost");
+
         }
     }
 }
-    //"name": "Diva – 26 Aralık 2014",
-    //"title": "Basında Biz",
-    //"content": "Diva – 26 Aralık 2014",
-    //"image": "http://limaxbilisim.com/demo/akuzman/admin/upload/akuzman_25yil_23x30cm_1524657869.jpg",
-    //"web_url": "http://limaxbilisim.com/demo/akuzman/basinda_biz_bbv-1.html"
+//"name": "Diva – 26 Aralık 2014",
+//"title": "Basında Biz",
+//"content": "Diva – 26 Aralık 2014",
+//"image": "http://limaxbilisim.com/demo/akuzman/admin/upload/akuzman_25yil_23x30cm_1524657869.jpg",
+//"web_url": "http://limaxbilisim.com/demo/akuzman/basinda_biz_bbv-1.html"

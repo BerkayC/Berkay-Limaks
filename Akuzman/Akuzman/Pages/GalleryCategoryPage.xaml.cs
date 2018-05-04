@@ -6,6 +6,7 @@ using Akuzman.Views;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 
+
 namespace Akuzman.Pages
 {
     public partial class GalleryCategoryPage : ContentPage
@@ -18,6 +19,8 @@ namespace Akuzman.Pages
         public aMasterPage maMasterPage;
         public DataRetriever GalleryCatRetriever;
         public List<GalleryCategory> GalleryCategories { get; set; }
+        public aMenu mMenu;
+
 
         public string CategoryData;
         public static string UrlForData = "http://limaxbilisim.com/demo/akuzman/api/mobile1/main.php?router=json_gallery_categories";
@@ -73,11 +76,16 @@ namespace Akuzman.Pages
             Content = outerStack;
         }
 
-        private void OnLabelClicked(object sender, EventArgs eventArgs)
+        private async Task OnLabelClicked(object sender, EventArgs eventArgs)
         {
             Label label = (Label)sender;
-            DisplayAlert("hey"+"  "+label.ClassId,"you did it","get lost");
+           
 
+            GalleryPage galleriesPage = new GalleryPage();
+            await galleriesPage.PopulateGalleriesAsync();
+            galleriesPage.categoryPage = this;
+            galleriesPage.SubCategory(label.ClassId);
+            //initiate inner gallery
         }
     }
 }

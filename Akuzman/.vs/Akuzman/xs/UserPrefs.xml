@@ -1,19 +1,19 @@
-﻿<Properties StartupConfiguration="{6FB3C1B9-B9E5-498E-A1E0-0A3F721034C8}|Default">
+﻿<Properties StartupConfiguration="{0FA00CCD-4947-48CA-8014-78358E3B9343}|Default">
   <MonoDevelop.Ide.ItemProperties.Akuzman.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.d" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Akuzman/Pages/PressList.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Akuzman/Pages/GalleryCategoryPage.xaml.cs">
     <Files>
-      <File FileName="Akuzman/Views/aMasterPage.cs" Line="29" Column="14" />
-      <File FileName="Akuzman/Logic/DataRetriever.cs" Line="26" Column="17" />
-      <File FileName="Akuzman/Pages/PressList.xaml.cs" Line="48" Column="1" />
-      <File FileName="Akuzman/Pages/PressList.xaml" Line="9" Column="1" />
-      <File FileName="Akuzman/Pages/GalleryCategoryPage.xaml.cs" Line="20" Column="69" />
-      <File FileName="Akuzman/Pages/aMenu.xaml.cs" Line="82" Column="32" />
-      <File FileName="Akuzman/Logic/GalleryFactory.cs" Line="19" Column="33" />
+      <File FileName="Akuzman/Pages/HomePage.xaml" Line="16" Column="15" />
+      <File FileName="Akuzman/Pages/HomePage.xaml.cs" Line="23" Column="10" />
+      <File FileName="Akuzman/Pages/GalleryPage.xaml" Line="6" Column="1" />
+      <File FileName="Akuzman/Pages/GalleryPage.xaml.cs" Line="130" Column="1" />
+      <File FileName="Akuzman/Pages/GalleryCategoryPage.xaml.cs" Line="92" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/Pages/GalleryPage.xaml.cs" relfile="Akuzman/Pages/GalleryPage.xaml.cs" line="209" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

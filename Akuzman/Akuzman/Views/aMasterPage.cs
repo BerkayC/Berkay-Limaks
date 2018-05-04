@@ -10,7 +10,7 @@ namespace Akuzman.Views
         public HomePage hPage{ get; set; }
         public aMenu menu { get; set; }
         public aDetailPage mDetail{ get; set; }
-        public PressList mPressList { get; set; }
+        public PressListPage mPressList { get; set; }
 
 
         public aMasterPage()
