@@ -1,7 +1,6 @@
 ﻿using Akuzman.Views;
 using Xamarin.Forms;
 using Akuzman.Logic;
-
 namespace Akuzman
 {
     public partial class App : Application
@@ -9,7 +8,6 @@ namespace Akuzman
         public App()
         {
             InitializeComponent();
-
 
             MainPage = new aMasterPage();
         }

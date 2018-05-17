@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Akuzman.Logic;
 using Akuzman.Views;
+using Rg.Plugins.Popup.Extensions;
 using Xamarin.Forms;
 
 namespace Akuzman.Pages
@@ -22,7 +23,7 @@ namespace Akuzman.Pages
             InitializeComponent();
             Title = "Akuzman";
             menuItems = new List<aMenuItem>();
-            string[] menuItemNames = new string[] { "AnaSayfa", "Tanıtım", "Basında Biz","Galeri","Blog","İletişim" };
+            string[] menuItemNames = new string[] { "AnaSayfa", "Tanıtım", "Basında Biz","Galeri","Blog","İletişim"};
             setMenuItems(menuItemNames);
             lstView.ItemsSource = menuItems;
 
@@ -37,11 +38,14 @@ namespace Akuzman.Pages
             ListView list = (ListView)sender;
 
 
-
             list.SelectedItem = null;
-            maMasterPage.Detail = new NavigationPage(GetPage(sItem)); 
-			maMasterPage.IsPresented = false;
+            maMasterPage.Detail = new NavigationPage(GetPage(sItem));
+            maMasterPage.IsPresented = false;
 
+        }
+        public void PopUp (Page page)
+        {
+            Navigation.PushPopupAsync((Rg.Plugins.Popup.Pages.PopupPage)page);
         }
     
         public void setMenuItems(string[] menuItemNames)
@@ -59,34 +63,42 @@ namespace Akuzman.Pages
             switch (mItem.Id) 
             {
 				case 0:
-                    mPage = maMasterPage.hPage;
+					HomePage homePage = new HomePage();
+					homePage.mMenu = this;
+					mPage = homePage;
+
                     break;
                 case 1:
-                    mPage = maMasterPage.mDetail;
+					AboutPage aboutPage = new AboutPage();
+					aboutPage.mMenu = this;
+					mPage = aboutPage;
                     break;
                 case 2:
-                    PressListPage pressPage = new PressListPage();
+                    PressList pressPage = new PressList();
                     pressPage.PopulatePressItemAsync();
-                    pressPage.mMenu = this;
                     mPage = pressPage;
                     break;
                 case 3:
                     GalleryCategoryPage categoryPage = new GalleryCategoryPage();
                     categoryPage.PopulateCatAsync();
-                    categoryPage.mMenu = this;
                     mPage = categoryPage;
                     break;
                 case 4:
-                    mPage = maMasterPage.hPage;
+					BlogPage blogPage = new BlogPage();
+					blogPage.mMenu = this;
+					mPage = blogPage;
+                    
                     break;
                 case 5:
-                    mPage = maMasterPage.hPage;
-                    break;                
+					mPage = new ContactPage();
+                    break;
                 default :
                     mPage = maMasterPage.hPage;
                     break;
                 
             } 
+
+
             return mPage;
         }
     }

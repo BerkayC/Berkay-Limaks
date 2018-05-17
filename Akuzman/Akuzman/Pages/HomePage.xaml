@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"  x:Class="Akuzman.Pages.HomePage" BackgroundColor="Black">
-    <ContentPage.Padding>
-        <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0"></OnPlatform>
-    </ContentPage.Padding>
-     
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Akuzman.Pages.HomePage" xmlns:c="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions" BackgroundColor="Black">
+    
+    <ContentPage.ToolbarItems>
+         <ToolbarItem Name="MenuItem1"   Order="Default" Icon="favicon1.png"   Priority="0" />
+         <ToolbarItem Order="Primary"  Priority="1" />
+         <ToolbarItem Order="Primary"  Priority="2" />
+         <ToolbarItem Order="Primary"  Priority="3" />
+         <ToolbarItem Name="MenuItem2" Order="Default" Icon="rightend.png"   Priority="5" />
+       </ContentPage.ToolbarItems>
+    <c:CarouselViewControl x:Name="mSlider" >
+        
+    </c:CarouselViewControl>
     <ContentPage.Content>
-<!-- <controls:CarouselViewControl Orientation="Horizontal" InterPageSpacing="10"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-    <controls:CarouselViewControl.ItemTemplate>
-        <DataTemplate>
-           
-        </DataTemplate>
-    </controls:CarouselViewControl.ItemTemplate>
-</controls:CarouselViewControl>-->
     </ContentPage.Content>
 </ContentPage>

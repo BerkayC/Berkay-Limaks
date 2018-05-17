@@ -13,7 +13,7 @@ namespace Akuzman.Pages
         {
             galleryRetriever = new DataRetriever(UrlOfData);
             matchingItems = new List<GalleryItem>();
-            InitializeComponent();
+            //InitializeComponent();
         }
 
         public DataRetriever galleryRetriever;
@@ -42,7 +42,7 @@ namespace Akuzman.Pages
 
         private async Task GetRawJson()
         {
-            await galleryRetriever.ReadByUrl(UrlOfData);
+            await galleryRetriever.ReadByUrl();
             GalleryData = galleryRetriever.RawJson;
         }
         private void InsertItems()
@@ -69,7 +69,7 @@ namespace Akuzman.Pages
             foreach (GalleryItem gItem in matchingItems)
             {
                 // Label mlabel = new Label { Text = gItem.name, ClassId = gItem.id, TextColor = Color.FromHex("#00558f"), HorizontalOptions = LayoutOptions.Center, HorizontalTextAlignment = TextAlignment.Center, FontSize = 15, };
-                Image mImage = new Image { Source = gItem.img , ClassId=gItem.id};
+                Image mImage = new Image { Source = gItem.img, ClassId = gItem.id };
                 //Clickable Label
                 mImage.GestureRecognizers.Add(tgr);
                 //Clickable Label
@@ -87,7 +87,7 @@ namespace Akuzman.Pages
         {
             Image mImage = (Image)s;
             string id = mImage.ClassId;
-            GalleryItem mgItem = matchingItems.Find(x => x.id==id);
+            GalleryItem mgItem = matchingItems.Find(x => x.id == id);
             PublishImages(mgItem.images);
 
         }
@@ -115,13 +115,13 @@ namespace Akuzman.Pages
             categoryPage.Content = outerStack;
         }
 
-       
+
         public void SubCategory(string Cat_id)
         {
             matchingItems = GalleryItems.FindAll(x => x.category_id == Cat_id);
             GenerateView(matchingItems);
 
-           // mMenu.maMasterPage.Detail = new NavigationPage(this);
+            // mMenu.maMasterPage.Detail = new NavigationPage(this);
         }
     }
 }

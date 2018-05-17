@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Net.Http;
-using Newtonsoft.Json;
 namespace Akuzman.Logic
 {
     public class DataRetriever
@@ -9,9 +8,10 @@ namespace Akuzman.Logic
 
         public string DataUrl { get; set; }
 
-        public async System.Threading.Tasks.Task ReadByUrl (string url)
+        public async System.Threading.Tasks.Task ReadByUrl ()
         {
-            var uri = new Uri(url);
+            
+            var uri = new Uri(DataUrl);
 
             HttpClient myClient = new HttpClient();
 

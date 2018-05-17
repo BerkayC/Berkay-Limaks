@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Akuzman.Pages.AboutPage">
+          <ContentPage.ToolbarItems>
+         <ToolbarItem Name="MenuItem1"  Order="Default" Icon="favicon1.png"   Priority="0" />
+         <ToolbarItem Order="Primary"  Priority="1" />
+         <ToolbarItem Order="Primary"  Priority="2" />
+         <ToolbarItem Order="Primary"  Priority="3" />
+         <ToolbarItem Name="MenuItem2" Order="Default" Icon="rightend.png"   Priority="5" />
+       </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    </ContentPage.Content>
+</ContentPage>

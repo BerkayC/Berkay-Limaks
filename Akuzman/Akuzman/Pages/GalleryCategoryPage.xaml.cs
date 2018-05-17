@@ -13,7 +13,7 @@ namespace Akuzman.Pages
     {
         public class GalleryCategory
         {
-            public string id{ get ; set ;}
+            public string id { get; set; }
             public string name { get; set; }
         }
         public aMasterPage maMasterPage;
@@ -32,7 +32,7 @@ namespace Akuzman.Pages
         }
         private async Task GetRawJson()
         {
-            await GalleryCatRetriever.ReadByUrl(UrlForData);
+            await GalleryCatRetriever.ReadByUrl();
             CategoryData = GalleryCatRetriever.RawJson;
         }
         private void InsertItems()
@@ -42,7 +42,7 @@ namespace Akuzman.Pages
         public async Task PopulateCatAsync()
         {
             await GetRawJson();
-           
+
             InsertItems();
 
             GenerateView();
@@ -56,13 +56,13 @@ namespace Akuzman.Pages
             var outerStack = new StackLayout { Orientation = StackOrientation.Vertical, VerticalOptions = LayoutOptions.FillAndExpand, Children = { scroller } };
 
             //Clickable Label
-			var tgr = new TapGestureRecognizer();
-			tgr.Tapped += (s, e) => OnLabelClicked(s,e);
+            var tgr = new TapGestureRecognizer();
+            tgr.Tapped += (s, e) => OnLabelClicked(s, e);
             //Clickable Label
 
             foreach (GalleryCategory catItem in GalleryCategories)
             {
-                Label mlabel = new Label { Text = catItem.name, ClassId = catItem.id, TextColor = Color.FromHex("#00558f"), HorizontalOptions = LayoutOptions.Center, HorizontalTextAlignment = TextAlignment.Center, FontSize = 15 ,  };
+                Label mlabel = new Label { Text = catItem.name, ClassId = catItem.id, TextColor = Color.FromHex("#00558f"), HorizontalOptions = LayoutOptions.Center, HorizontalTextAlignment = TextAlignment.Center, FontSize = 15, };
                 //Clickable Label
                 mlabel.GestureRecognizers.Add(tgr);
                 //Clickable Label
@@ -79,7 +79,7 @@ namespace Akuzman.Pages
         private async Task OnLabelClicked(object sender, EventArgs eventArgs)
         {
             Label label = (Label)sender;
-           
+
 
             GalleryPage galleriesPage = new GalleryPage();
             await galleriesPage.PopulateGalleriesAsync();

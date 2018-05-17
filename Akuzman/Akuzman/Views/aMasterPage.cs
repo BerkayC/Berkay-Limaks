@@ -10,7 +10,7 @@ namespace Akuzman.Views
         public HomePage hPage{ get; set; }
         public aMenu menu { get; set; }
         public aDetailPage mDetail{ get; set; }
-        public PressListPage mPressList { get; set; }
+        public PressList mPressList { get; set; }
 
 
         public aMasterPage()
@@ -18,14 +18,15 @@ namespace Akuzman.Views
             
             hPage = new HomePage();
             menu = new aMenu();
-            mDetail = new aDetailPage();
-           // mPressList = new PressList();
+           // mDetail = new aDetailPage();
+            // mPressList = new PressList();
+            hPage.mMenu = menu;
 
 			
 
-            hPage.maMasterPage = this;
-            menu.maMasterPage = this;
-            mDetail.maMasterPage = this;
+//            hPage.maMasterPage = this;
+              menu.maMasterPage = this;
+    //        mDetail.maMasterPage = this;
            // mPressList.maMasterPage = this;
 
 

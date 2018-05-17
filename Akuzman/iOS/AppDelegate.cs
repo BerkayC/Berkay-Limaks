@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using CarouselView.FormsPlugin.iOS;
 using Foundation;
 using UIKit;
 
@@ -13,9 +13,10 @@ namespace Akuzman.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+			//global::CarouselView.FormsPlugin.iOS.CarouselViewRenderer.Init();
+			CarouselViewRenderer.Init();
 
             LoadApplication(new App());
-
             return base.FinishedLaunching(app, options);
         }
     }

@@ -1,0 +1,44 @@
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Akuzman.dll
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Akuzman.pdb
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Newtonsoft.Json.dll
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Core.dll
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Core.xml
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/bin/Debug/Newtonsoft.Json.xml
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.csproj.CoreCompileInputs.cache
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.App.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.Pages.aMenu.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.Pages.aDetailPage.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.Pages.HomePage.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.Pages.mBasePage.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.Pages.MyPage.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.Pages.PressList.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.Pages.GalleryPage.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.Pages.GalleryCategoryPage.xaml.g.cs
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.dll
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.pdb
+/Users/hasancelebi/Documents/GitHub/Berkay-Limax/Akuzman/Akuzman/obj/Debug/Akuzman.csprojResolveAssemblyReference.cache
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Akuzman.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Akuzman.pdb
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/CarouselView.FormsPlugin.Abstractions.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Newtonsoft.Json.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Rg.Plugins.Popup.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Rg.Plugins.Popup.Platform.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Xamarin.Forms.Core.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Newtonsoft.Json.xml
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Xamarin.Forms.Core.xml
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/obj/Debug/Akuzman.csprojResolveAssemblyReference.cache
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/obj/Debug/Akuzman.csproj.CoreCompileInputs.cache
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/obj/Debug/Akuzman.dll
+/Users/hasancelebi/Desktop/Akuzman kopyası/Akuzman/obj/Debug/Akuzman.pdb

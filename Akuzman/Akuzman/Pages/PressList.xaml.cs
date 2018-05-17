@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace Akuzman.Pages
 {
-    public class PressItem
+    public class PressItem 
     {
         public string name { get; set; }
         public string title { get; set; }
@@ -18,9 +18,10 @@ namespace Akuzman.Pages
 
         public PressItem()
         {
-
+            
         }
     }
+
     public partial class PressList : ContentPage
     {
         public aMasterPage maMasterPage;
@@ -29,6 +30,10 @@ namespace Akuzman.Pages
         public string PressData;
         public static string UrlOfData = "http://limaxbilisim.com/demo/akuzman/api/mobile1/main.php?router=json_press_list";
 
+		public void Handle_Activated(object sender, System.EventArgs e)
+        {
+            maMasterPage.IsPresented = true;
+        }
         public PressList()
         {
             InitializeComponent();
@@ -39,8 +44,8 @@ namespace Akuzman.Pages
             //ndicator = new ActivityIndicator();
             //ndicator.IsRunning = true;
             //Content = ndicator;
-
-
+           
+          
         }
 
         public async Task PopulatePressItemAsync()
@@ -53,7 +58,7 @@ namespace Akuzman.Pages
         }
         private async Task GetRawJson()
         {
-            await PressListRetriever.ReadByUrl(UrlOfData);
+            await PressListRetriever.ReadByUrl();
             PressData = PressListRetriever.RawJson;
         }
         private void InsertItems()
@@ -99,8 +104,8 @@ namespace Akuzman.Pages
         }
     }
 }
-//"name": "Diva – 26 Aralık 2014",
-//"title": "Basında Biz",
-//"content": "Diva – 26 Aralık 2014",
-//"image": "http://limaxbilisim.com/demo/akuzman/admin/upload/akuzman_25yil_23x30cm_1524657869.jpg",
-//"web_url": "http://limaxbilisim.com/demo/akuzman/basinda_biz_bbv-1.html"
+    //"name": "Diva – 26 Aralık 2014",
+    //"title": "Basında Biz",
+    //"content": "Diva – 26 Aralık 2014",
+    //"image": "http://limaxbilisim.com/demo/akuzman/admin/upload/akuzman_25yil_23x30cm_1524657869.jpg",
+    //"web_url": "http://limaxbilisim.com/demo/akuzman/basinda_biz_bbv-1.html"
